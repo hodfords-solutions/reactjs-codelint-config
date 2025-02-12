@@ -1,5 +1,7 @@
+const postcssStyleSyntax = require('postcss-styled-syntax');
+
 module.exports = {
-  customSyntax: 'postcss-styled-syntax',
+  customSyntax: postcssStyleSyntax,
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recommended',
