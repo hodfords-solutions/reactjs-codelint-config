@@ -88,9 +88,14 @@ module.exports = [
         },
       ],
       'import/no-unresolved': [
-        2,
+        'error',
         {
-          ignore: {'virtual:pwa-register': true, 'PlatformCore': true, 'PlatformLumenShared': true, 'RecruitmentApp': true},
+          ignore: [
+            'virtual:pwa-register',
+            'PlatformCore',
+            'PlatformShared',
+            'RecruitmentApp'
+          ],
         },
       ],
       'import/extensions': [
