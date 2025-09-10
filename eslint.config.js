@@ -90,9 +90,9 @@ module.exports = [
       'import/no-unresolved': [
         2,
         {
-          ignore: ['virtual:pwa-register', 'PlatformCore', 'PlatformLumenShared', 'RecruitmentApp'],
+          ignore: {'virtual:pwa-register': true, 'PlatformCore': true, 'PlatformLumenShared': true, 'RecruitmentApp': true},
         },
-      ],      
+      ],
       'import/extensions': [
         'error',
         'ignorePackages',

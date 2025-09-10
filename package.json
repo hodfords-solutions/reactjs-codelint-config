@@ -1,6 +1,6 @@
 {
   "name": "@hodfords/reactjs-codelint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "VietNa",
   "description": "Eslint default configuration for ReactJS project. It will help you to maintain the code quality of your project.",
   "main": "index.js",
